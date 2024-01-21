@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+
+import React from 'react';
+import backgroundImage from './images/background.jpg';
+import Navlogo from './images/navlogo.svg'
+import './styles/tailwind.css'
+import './animations/scaledown.css'
+import './animations/gradient.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div
+      className="bg-cover backdrop-brightness-0"
+      style={{ backgroundImage: `url(${backgroundImage})`, height: '100vh', width: '100vw' }}
+    >
+      <div className='container backdrop-blur-md' style={{height: '100vh', width: '100vw'}}>
+        <div className='flex justify-center'>
+          <img src={Navlogo} className='scale-down-center md:animate-none size-12/12 md:size-2/12 '/>
+        </div>
+        <div className='flex justify-center'>
+          <div className='rounded-xl color-change-4x' style={{width: '80vw', height: '20vh'}}>
+            
+          </div>
+        </div>
+      </div>
     </div>
+
   );
 }
 
