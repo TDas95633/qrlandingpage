@@ -3,15 +3,14 @@ import '../styles/tailwind.css'
 import '../animations/scaledown.css'
 import '../animations/gradient.css'
 import '../animations/click.css'
-import '../animations/wiggle.css'
 
-const Cards = ({logoUrl, textUrl, icon, text, textUrlDisplay}) => {
+const Cards2 = ({logoUrl, textUrl, icon, text, textUrlDisplay}) => {
     return (
         <div className='flex content-center items-center justify-start rounded-xl bg-white/50 drop-shadow-md' style={{ height: '20%', width: '80%' }}>
-            <div className="flex-row gap-2 justify-center wiggle">
+            <div className="flex-row gap-2 justify-center">
             <a href={logoUrl}>
 
-                    <img src={icon} className='bg-white/80 rounded-full clickable-element m-5 size-20 md shadow-2xl' alt='' style={{}}></img>
+                    <img src={icon} className='bg-white/80 rounded-full clickable-element m-5 size-20 p-3 md shadow-2xl' alt='' style={{}}></img>
                 </a>
             </div>
             <div>
@@ -23,4 +22,4 @@ const Cards = ({logoUrl, textUrl, icon, text, textUrlDisplay}) => {
     )
 }
 
-export default Cards;
+export default Cards2;
