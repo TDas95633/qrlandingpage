@@ -36,7 +36,7 @@ function App() {
           <Cards icon={telegram} logoUrl='tg://resolve?domain=xponentfund/' text='Get real-time market analysis!' textUrlDisplay='@xponentfunds' textUrl='https://xponent.vercel.app' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards icon={linkedin} logoUrl='//instagram.com/_u/xponentfunds/#Intent;package=com.instagram.android;scheme=https;end' text='Connect with us!' textUrlDisplay='@xponentfunds' textUrl='' />
+          <Cards icon={linkedin} logoUrl='https://www.linkedin.com/company/xponent-fund-management' text='Connect with us!' textUrlDisplay='Xponent Funds' textUrl='https://www.linkedin.com/company/xponent-fund-management' />
         </div>
 
       </div>

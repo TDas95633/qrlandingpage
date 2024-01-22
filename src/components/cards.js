@@ -1,5 +1,4 @@
 import React from "react";
-import Navlogo from '../images/navlogo.svg'
 import '../styles/tailwind.css'
 import '../animations/scaledown.css'
 import '../animations/gradient.css'
