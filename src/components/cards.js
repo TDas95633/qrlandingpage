@@ -6,7 +6,7 @@ import '../animations/click.css'
 
 const Cards = ({logoUrl, textUrl, icon, text, textUrlDisplay}) => {
     return (
-        <div className='flex content-center items-center justify-start rounded-xl gradient-background drop-shadow-md' style={{ height: '20vh', width: '80vw' }}>
+        <div className='flex content-center items-center justify-start rounded-xl gradient-background drop-shadow-md' style={{ height: '20%', width: '80%' }}>
             <div className="flex-row gap-2 justify-center">
             <a href={logoUrl}>
 
