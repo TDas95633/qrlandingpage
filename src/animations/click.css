@@ -1,0 +1,10 @@
+/* Apply styles to your element */
+.clickable-element {
+    transition: transform 0.2s ease; /* Add a smooth transition effect */
+  }
+  
+  /* Apply styles when the element is clicked or tapped */
+  .clickable-element:active {
+    transform: scale(0.9);
+  }
+  
