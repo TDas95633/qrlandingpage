@@ -24,19 +24,19 @@ function App() {
         </div>
 
         <div className='flex justify-center mb-4'>
-          <Cards icon={instagram} logoUrl='//instagram.com/_u/xponentfunds/#Intent;package=com.instagram.android;scheme=https;end' text='Checkout our Instagram Page!' textUrlDisplay='@xponentfunds' />
+          <Cards icon={instagram} logoUrl='//instagram.com/_u/xponentfunds/#Intent;package=com.instagram.android;scheme=https;end' text='Checkout our Instagram Page!' textUrlDisplay='@xponentfunds' textUrl='https://www.instagram.com/xponentfunds' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards icon={facebook} logoUrl='https://www.facebook.com/xponentfunds' text='Follow us on Facebook!' textUrlDisplay='fb/xponentfunds' />
+          <Cards icon={facebook} logoUrl='https://www.facebook.com/xponentfunds' text='Follow us on Facebook!' textUrlDisplay='/xponentfunds' textUrl='https://www.facebook.com/xponentfunds' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards icon={youtube} logoUrl='//instagram.com/_u/xponentfunds/#Intent;package=com.instagram.android;scheme=https;end' text='Checkout our Instagram Page!' textUrlDisplay='@xponentfunds' />
+          <Cards icon={youtube} logoUrl='https://www.youtube.com/@xponentfunds' text='Watch our Youtube videos!' textUrlDisplay='@xponentfunds' textUrl='https://www.youtube.com/@xponentfunds' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards icon={telegram} logoUrl='//instagram.com/_u/xponentfunds/#Intent;package=com.instagram.android;scheme=https;end' text='Checkout our Instagram Page!' textUrlDisplay='@xponentfunds' />
+          <Cards icon={telegram} logoUrl='tg://resolve?domain=xponentfund/' text='Get real-time market analysis!' textUrlDisplay='@xponentfunds' textUrl='https://xponent.vercel.app' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards icon={linkedin} logoUrl='//instagram.com/_u/xponentfunds/#Intent;package=com.instagram.android;scheme=https;end' text='Checkout our Instagram Page!' textUrlDisplay='@xponentfunds' />
+          <Cards icon={linkedin} logoUrl='//instagram.com/_u/xponentfunds/#Intent;package=com.instagram.android;scheme=https;end' text='Connect with us!' textUrlDisplay='@xponentfunds' textUrl='' />
         </div>
 
       </div>
