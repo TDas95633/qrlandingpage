@@ -15,11 +15,11 @@ function App() {
     >
       <div className='container backdrop-blur-md' style={{height: '100vh', width: '100vw'}}>
         <div className='flex justify-center'>
-          <img src={Navlogo} className='scale-down-center md:animate-none size-12/12 md:size-2/12 '/>
+          <img src={Navlogo} alt='Xponent' className='scale-down-center md:animate-none size-12/12 md:size-2/12 '/>
         </div>
         <div className='flex justify-center'>
-          <div className='rounded-xl color-change-4x' style={{width: '80vw', height: '20vh'}}>
-            
+          <div className='rounded-xl gradient-background' style={{width: '80vw', height: '20vh'}}>
+              <img src='' className='' alt='' style={{}}></img>
           </div>
         </div>
       </div>
