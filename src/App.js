@@ -18,8 +18,8 @@ function App() {
           <img src={Navlogo} alt='Xponent' className='scale-down-center md:animate-none size-12/12 md:size-2/12 '/>
         </div>
         <div className='flex justify-center'>
-          <div className='rounded-xl gradient-background' style={{width: '80vw', height: '20vh'}}>
-              <img src='' className='' alt='' style={{}}></img>
+          <div className='flex rounded-xl gradient-background drop-shadow-md' style={{width: '80vw', height: '20vh'}}>
+              <img src={Navlogo} className='bg-white rounded-full m-5 size-20 drop-shadow-md' alt='' style={{}}></img>
           </div>
         </div>
       </div>
