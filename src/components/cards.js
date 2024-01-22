@@ -1,6 +1,9 @@
 import React from "react";
 import Navlogo from '../images/navlogo.svg'
 import instagram from '../images/instagram.svg'
+import linkedin from '../images/linkedin.svg'
+import youtube from '../images/youtube.svg'
+import telegram from '../images/telegram.svg'
 import '../styles/tailwind.css'
 import '../animations/scaledown.css'
 import '../animations/gradient.css'
@@ -16,16 +19,10 @@ const Cards = () => {
                 </a>
             </div>
             <div>
-                <h1>Check out our Instagram</h1>
-                <h1>Check out our Instagram</h1>
-                <h1>Check out our Instagram</h1>
+                <p className="text-xl text-center text-white">Check out our Instagram!</p>
+                <a className="text-2xl text-white font-bold" href='https://www.instagram.com/xponentfunds'>@xponentfunds</a>
             </div>
-            <div>
-
-            </div>
-
-
-
+            
         </div>
     )
 }
