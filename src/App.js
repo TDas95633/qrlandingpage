@@ -41,10 +41,10 @@ function App() {
           <Cards icon={linkedin} logoUrl='https://www.linkedin.com/company/xponent-fund-management' text='Connect with us!' textUrlDisplay='Xponent Funds' textUrl='https://www.linkedin.com/company/xponent-fund-management' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards icon={email} logoUrl='mailto:help@xponentfunds.com' text='Reach out to us via' textUrlDisplay='Email' textUrl='mailto:help@xponentfunds.com' customPadding='3' />
+          <Cards icon={email} logoUrl='mailto:help@xponentfunds.com' text='Reach out to us via' textUrlDisplay='Email' textUrl='mailto:help@xponentfunds.com' customPadding='p-3' />
         </div>
         <div className='flex justify-center pb-8'>
-          <Cards icon={call} logoUrl='tel:+911169290876' text='Just a single call away!' textUrlDisplay='116 929 0876' textUrl='tel:+911169290876' customPadding='3' />
+          <Cards icon={call} logoUrl='tel:+911169290876' text='Just a single call away!' textUrlDisplay='116 929 0876' textUrl='tel:+911169290876' customPadding='p-3' />
         </div>
 
       </div>

@@ -7,7 +7,7 @@ import '../animations/wiggle.css'
 
 const Cards = ({ logoUrl, textUrl, icon, text, textUrlDisplay, customPadding }) => {
   // Build the padding classes only if customPadding is defined
-  const paddingClasses = customPadding !== undefined ? `p-${customPadding}` : '';
+  const paddingClasses = customPadding !== undefined ? `${customPadding}` : '';
 
   return (
     <div className='flex content-center items-center justify-start rounded-xl bg-white/50 drop-shadow-md' style={{ height: '20%', width: '80%' }}>
