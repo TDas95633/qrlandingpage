@@ -29,7 +29,7 @@ function App() {
           <Cards icon={instagram} logoUrl='//instagram.com/_u/xponentfunds/#Intent;package=com.instagram.android;scheme=https;end' text='Checkout our page!' textUrlDisplay='@xponentfunds' textUrl='https://www.instagram.com/xponentfunds' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards icon={facebook} logoUrl='https://www.facebook.com/xponentfunds' text='Follow us on Facebook!' textUrlDisplay='/xponentfunds' textUrl='https://www.facebook.com/xponentfunds' />
+          <Cards icon={facebook} logoUrl='fb://profile.php/?id=100086099315880' text='Follow us on Facebook!' textUrlDisplay='/xponentfunds' textUrl='https://www.facebook.com/xponentfunds' />
         </div>
         <div className='flex justify-center mb-4'>
           <Cards icon={youtube} logoUrl='https://www.youtube.com/@xponentfunds' text='Watch our videos!' textUrlDisplay='@xponentfunds' textUrl='https://www.youtube.com/@xponentfunds' />
