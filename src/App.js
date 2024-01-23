@@ -17,7 +17,7 @@ import email from './images/email.svg'
 
 function App() {
   return (
-    <div className="bg-cover p-0 m-0 ackdrop-brightness-0"
+    <div className="bg-cover scroll-smooth scroll-m-0 scroll-p-0 overscroll-contain overflow-hidden backdrop-brightness-0"
       style={{ backgroundImage: `url(${backgroundImage})`}}
     >
       <div className='justify-center backdrop-blur-md'>
@@ -29,7 +29,7 @@ function App() {
           <Cards icon={instagram} logoUrl='//instagram.com/_u/xponentfunds/#Intent;package=com.instagram.android;scheme=https;end' text='Checkout our page!' textUrlDisplay='@xponentfunds' textUrl='https://www.instagram.com/xponentfunds' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards icon={facebook} logoUrl='fb://profile.php/?id=100086099315880' text='Follow us on Facebook!' textUrlDisplay='/xponentfunds' textUrl='https://www.facebook.com/xponentfunds' />
+          <Cards icon={facebook} logoUrl='fb://profile/?id=100086099315880' text='Follow us on Facebook!' textUrlDisplay='/xponentfunds' textUrl='https://www.facebook.com/xponentfunds' />
         </div>
         <div className='flex justify-center mb-4'>
           <Cards icon={youtube} logoUrl='https://www.youtube.com/@xponentfunds' text='Watch our videos!' textUrlDisplay='@xponentfunds' textUrl='https://www.youtube.com/@xponentfunds' />
@@ -41,7 +41,7 @@ function App() {
           <Cards icon={linkedin} logoUrl='https://www.linkedin.com/company/xponent-fund-management' text='Connect with us!' textUrlDisplay='Xponent Funds' textUrl='https://www.linkedin.com/company/xponent-fund-management' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards icon={email} logoUrl='mailto:help@xponentfunds.com' text='Reach out to us via' textUrlDisplay='Email' textUrl='mailto:help@xponentfunds.com' customPadding='p-3' />
+          <Cards icon={email} logoUrl='mailto:help@xponentfunds.com' text='Reach out to us via' textUrlDisplay='help@xponentfunds.com' textUrl='mailto:help@xponentfunds.com' customPadding='p-3' />
         </div>
         <div className='flex justify-center pb-8'>
           <Cards icon={call} logoUrl='tel:+911169290876' text='Just a single call away!' textUrlDisplay='116 929 0876' textUrl='tel:+911169290876' customPadding='p-3' />
