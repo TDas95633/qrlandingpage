@@ -10,6 +10,7 @@ const Cards = ({ logoUrl, textUrl, icon, text, textUrlDisplay, customPadding }) 
   const paddingClasses = customPadding !== undefined ? `${customPadding}` : '';
 
   return (
+    
     <div className='flex content-center items-center justify-start rounded-xl bg-white/50  drop-shadow-md' style={{ height: '20%', width: '80%' }}>
       <div className='flex-row gap-2 justify-center wiggle'>
         <a href={logoUrl}>

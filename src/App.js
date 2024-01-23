@@ -17,7 +17,7 @@ import email from './images/email.svg'
 
 function App() {
   return (
-    <div className="bg-cover scroll-smooth scroll-m-0 scroll-p-0 overscroll-contain overflow-hidden backdrop-brightness-0"
+    <div className="bg-contain bg-fixed scroll-m-0 scroll-p-0 overscroll-contain overflow-hidden backdrop-brightness-0"
       style={{ backgroundImage: `url(${backgroundImage})`}}
     >
       <div className='justify-center backdrop-blur-md'>
