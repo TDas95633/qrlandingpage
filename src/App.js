@@ -7,7 +7,6 @@ import './styles/tailwind.css'
 import './animations/scaledown.css'
 import './animations/gradient.css'
 import Cards from './components/cards';
-import Cards2 from './components/cards2';
 import instagram from './images/instagram.svg'
 import linkedin from './images/linkedin.svg'
 import youtube from './images/youtube.svg'
@@ -42,10 +41,10 @@ function App() {
           <Cards icon={linkedin} logoUrl='https://www.linkedin.com/company/xponent-fund-management' text='Connect with us!' textUrlDisplay='Xponent Funds' textUrl='https://www.linkedin.com/company/xponent-fund-management' />
         </div>
         <div className='flex justify-center mb-4'>
-          <Cards2 icon={email} logoUrl='mailto:help@xponentfunds.com' text='Reach out to us via' textUrlDisplay='Email' textUrl='mailto:help@xponentfunds.com' />
+          <Cards icon={email} logoUrl='mailto:help@xponentfunds.com' text='Reach out to us via' textUrlDisplay='Email' textUrl='mailto:help@xponentfunds.com' customPadding='3' />
         </div>
         <div className='flex justify-center pb-8'>
-          <Cards2 icon={call} logoUrl='tel:+911169290876' text='Just a single call away!' textUrlDisplay='116 929 0876' textUrl='tel:+911169290876' />
+          <Cards icon={call} logoUrl='tel:+911169290876' text='Just a single call away!' textUrlDisplay='116 929 0876' textUrl='tel:+911169290876' customPadding='3' />
         </div>
 
       </div>
